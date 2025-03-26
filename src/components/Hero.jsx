@@ -1,4 +1,5 @@
 import React from 'react'
+import pic1 from "../assets/pic1.png";
 
 function Hero() {
     const downloadPDF = () => {
@@ -8,7 +9,7 @@ function Hero() {
     
   return (
     <div className='bg-black text-white text-center py-16'>
-       <img src='/src/assets/pic1.JPG' className='mx-auto mb-8 w-40 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'/>
+       <img src={pic1} className='mx-auto mb-8 w-40 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'/>
        <h1 className='text-4xl font-bold'>
         I'm {""}
         <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Md Shahadat Hossain</span>
